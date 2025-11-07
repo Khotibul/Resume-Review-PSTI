@@ -1,2 +1,97 @@
 # Resume-Review-PSTI
+Nama : Muhammad Khotibul Umam
+NPM : 23066020020
 Materi Justifikasi Investasi TI dan Tata Kelola TI
+1. Tujuan Pembelajaran
+
+Materi ini bertujuan agar mahasiswa memahami konsep dasar dan pentingnya justifikasi (pembenaran) investasi Teknologi Informasi (TI), mampu menjelaskan metode evaluasi kelayakan investasi TI baik secara finansial maupun non-finansial, memahami konsep dan fungsi tata kelola TI (IT Governance), serta mampu menganalisis hubungan antara investasi TI dan tata kelola TI.
+
+2. Pentingnya Justifikasi Investasi TI
+
+Investasi TI seringkali memerlukan biaya besar dan berisiko tinggi, sehingga setiap keputusan investasi harus disertai pembenaran bisnis (business justification). Hal ini penting untuk menghindari pemborosan anggaran dan kegagalan proyek TI, serta memastikan bahwa investasi yang dilakukan benar-benar memberikan nilai tambah terhadap strategi dan tujuan bisnis organisasi. Justifikasi juga membantu manajemen melihat kontribusi nyata TI terhadap kinerja perusahaan.
+
+3. Metode Justifikasi Investasi TI
+
+Pendekatan dalam menilai kelayakan investasi TI dibagi menjadi dua aspek utama:
+
+Analisis Finansial:
+
+ROI (Return on Investment) → Mengukur tingkat pengembalian atas investasi TI.
+
+NPV (Net Present Value) → Menilai nilai sekarang dari arus kas masa depan untuk melihat apakah proyek menguntungkan.
+
+IRR (Internal Rate of Return) → Menentukan tingkat pengembalian internal dari investasi.
+
+Analisis Non-Finansial:
+
+Peningkatan produktivitas organisasi.
+
+Peningkatan kepuasan pelanggan.
+
+Keunggulan kompetitif yang diperoleh.
+
+Dukungan terhadap inovasi dan transformasi digital.
+
+Pendekatan non-finansial penting karena tidak semua manfaat TI dapat diukur dengan uang, namun tetap memberikan dampak signifikan bagi organisasi.
+
+4. Tantangan dalam Justifikasi Investasi TI
+
+Tantangan utama dalam melakukan justifikasi antara lain:
+
+Kesulitan mengukur manfaat tidak berwujud (intangible benefits) seperti reputasi dan inovasi.
+
+Risiko kegagalan proyek TI akibat perencanaan dan manajemen yang kurang matang.
+
+Perubahan teknologi yang sangat cepat menyebabkan investasi menjadi cepat usang.
+
+Resistensi dari pengguna terhadap perubahan sistem atau teknologi baru.
+
+5. Konsep Tata Kelola TI (IT Governance)
+
+Tata kelola TI adalah struktur dan proses yang memastikan bahwa TI mendukung pencapaian strategi bisnis organisasi. Tujuan utama tata kelola TI meliputi:
+
+Value Delivery: memastikan TI memberikan nilai tambah nyata.
+
+Risk Management: menjamin keamanan dan keandalan sistem TI.
+
+Alignment: keselarasan antara strategi TI dan strategi bisnis.
+
+Performance Measurement: pengukuran kinerja TI agar dapat dievaluasi dan ditingkatkan.
+
+6. Framework Tata Kelola TI
+
+Beberapa framework yang umum digunakan dalam penerapan tata kelola TI antara lain:
+
+COBIT (Control Objectives for Information and Related Technology) → menyediakan panduan pengelolaan dan kontrol TI.
+
+ITIL (Information Technology Infrastructure Library) → fokus pada manajemen layanan TI.
+
+ISO/IEC 38500:2015 → memberikan prinsip dan panduan untuk tata kelola TI pada level korporasi.
+
+Komponen umum dari framework ini mencakup pembagian peran dan tanggung jawab, mekanisme pengendalian, serta metrik pengukuran kinerja.
+
+7. Hubungan antara Investasi TI dan Tata Kelola TI
+
+Investasi TI yang efektif tidak dapat dipisahkan dari penerapan tata kelola TI yang baik. Tata kelola berperan untuk:
+
+Menjamin proyek investasi TI selaras dengan strategi bisnis.
+
+Mengendalikan risiko yang muncul dari investasi TI.
+
+Memastikan manfaat yang dihasilkan dapat diukur dan dipertanggungjawabkan.
+
+Tanpa adanya tata kelola TI, investasi dapat berujung pada pemborosan, kegagalan proyek, dan ketidaksesuaian antara teknologi dan kebutuhan bisnis.
+
+8. Studi Kasus
+
+Contoh penerapan di Indonesia:
+
+Bank BRI menerapkan tata kelola TI berbasis COBIT dalam investasi core banking system untuk meningkatkan keandalan layanan perbankan.
+
+Telkom Indonesia menggunakan tata kelola TI dalam pengembangan platform digital seperti IndiHome dan MyTelkomsel untuk memastikan investasi digital selaras dengan strategi bisnis perusahaan.
+
+Pertanyaan reflektif dalam materi: bagaimana perguruan tinggi dapat membenarkan investasi pada sistem e-learning? Hal ini mendorong analisis cost-benefit dan value creation bagi institusi pendidikan.
+
+9. Kesimpulan
+
+Justifikasi investasi TI dan tata kelola TI merupakan dua aspek yang saling melengkapi. Justifikasi berfungsi membuktikan nilai tambah dan kelayakan investasi, sementara tata kelola TI memastikan pelaksanaan dan pengelolaan investasi dilakukan secara efektif, efisien, dan aman. Kombinasi keduanya menjadi kunci utama keberhasilan strategi TI dalam mendukung tujuan bisnis.
