@@ -1,0 +1,19 @@
+Review dan Studi Kasus PSSI & Framework Strategi TI
+1. Review Materi
+Dokumen ini berisi penjelasan lengkap mengenai Perencanaan Strategis Sistem Informasi (PSSI), teknik analisis pendukung, serta berbagai framework strategi TI seperti SAM, Ward & Peppard, Weill & Ross, dan COBIT 2019. Materi difokuskan pada bagaimana organisasi dapat menyelaraskan strategi bisnis dengan strategi teknologi informasi untuk menghasilkan nilai optimal.
+2. Penjelasan Lengkap PSSI & Framework TI
+PSSI adalah proses sistematis untuk menentukan arah pengembangan sistem informasi dan teknologi informasi yang selaras dengan strategi bisnis organisasi. Teknik pendukung meliputi SWOT, PESTEL, Porter Five Forces, CSF, Balanced Scorecard, Value Chain, Gap Analysis, dan Benchmarking. Framework strategi TI membantu organisasi menyusun langkah-langkah strategis dalam investasi dan pengembangan TI.
+3. Studi Kasus Tambahan
+Studi Kasus 1: Transformasi Digital Rumah Sakit Daerah
+Rumah Sakit Daerah menghadapi masalah berupa pencatatan manual, antrean panjang, dan kurangnya integrasi data. Menggunakan Ward & Peppard, analisis lingkungan internal dan eksternal dilakukan untuk menentukan strategi TI yang tepat. Hasilnya adalah implementasi sistem rekam medis elektronik (EMR), aplikasi antrean online, dan integrasi lab–farmasi–poliklinik.
+Studi Kasus 2: Optimalisasi Sistem Logistik Perusahaan Retail
+Perusahaan retail mengalami hambatan dalam distribusi barang dan visibilitas stok. Dengan pendekatan Strategic Alignment Model (SAM), strategi TI diselaraskan dengan strategi bisnis supply chain. Implementasi yang dilakukan meliputi sistem manajemen gudang (WMS) berbasis IoT, dashboard monitoring, dan prediksi permintaan menggunakan AI.
+4. Contoh Penerapan PSSI pada Sistem Desa / Penyaluran Bantuan
+Studi Kasus 3: Sistem Penyaluran Bantuan Desa Berbasis Digital
+Desa menghadapi masalah dalam validasi warga miskin, ketidaktepatan sasaran bantuan, dan kurangnya transparansi. Dengan menggunakan PSSI, desa melakukan analisis SWOT dan PESTEL untuk mengidentifikasi masalah inti. Framework COBIT digunakan untuk tata kelola data dan keamanan informasi. Solusi yang dibangun meliputi: 
+- Sistem pendataan keluarga miskin berbasis cloud
+- Integrasi standar kemiskinan UMR daerah dan asnaf zakat
+- Verifikasi otomatis menggunakan algoritma AI untuk menentukan kelayakan
+- Dashboard transparansi bantuan untuk publik
+- Audit trail berbasis COBIT untuk akuntabilitas
+Solusi ini menghasilkan peningkatan akurasi penyaluran bantuan, mengurangi kecurangan, dan meningkatkan kepercayaan masyarakat terhadap pemerintah desa.
