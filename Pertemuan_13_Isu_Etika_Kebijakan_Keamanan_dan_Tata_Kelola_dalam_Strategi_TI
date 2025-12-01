@@ -1,0 +1,190 @@
+1. Tujuan Pembelajaran
+
+Materi ini bertujuan untuk memberikan pemahaman yang menyeluruh mengenai:
+
+Isu etika yang muncul dalam pemanfaatan teknologi informasi.
+
+Kebijakan TI sebagai alat pengendali perilaku dan perlindungan aset organisasi.
+
+Keamanan informasi sebagai bagian penting dari strategi TI.
+
+Tata kelola TI (IT Governance) sebagai kerangka integrasi TI dengan strategi bisnis.
+
+2. Isu Etika dalam Teknologi Informasi
+
+Slide membahas bahwa perkembangan TI tidak hanya membawa manfaat, tetapi juga memunculkan tantangan etis, seperti:
+
+a. Privasi & Perlindungan Data Pribadi
+
+Organisasi wajib menjaga kerahasiaan data pelanggan dan karyawan. Penggunaan data harus transparan dan sesuai peraturan.
+
+b. Hak Kekayaan Intelektual
+
+Masalah seperti:
+
+Pembajakan software
+
+Plagiarisme digital
+merupakan tantangan etis yang harus dihindari.
+
+c. Transparansi Algoritma
+
+AI dapat menghasilkan bias, terutama dalam proses otomatisasi seperti rekrutmen. Algoritma harus adil, transparan, dan tidak diskriminatif.
+
+d. Etika Big Data & AI
+
+Ancaman seperti:
+
+Misinformasi
+
+Deepfake
+menjadi isu baru dalam AI modern.
+
+3. Studi Kasus Etika
+
+Beberapa kasus nyata diberikan untuk memperjelas:
+
+Facebook–Cambridge Analytica: kebocoran data besar akibat penyalahgunaan data pengguna.
+
+AI dalam Rekrutmen: menunjukkan bagaimana algoritma dapat bias terhadap gender/ras.
+
+Slide mendorong diskusi mengenai bagaimana memadukan inovasi TI dan etika secara seimbang.
+
+4. Kebijakan TI
+
+Kebijakan TI berfungsi sebagai aturan formal yang mengatur pemanfaatan TI di organisasi.
+
+Tujuan:
+
+Melindungi aset informasi
+
+Mengatur perilaku pengguna
+
+Mendukung strategi dan tujuan organisasi
+
+Jenis Kebijakan TI:
+
+Kebijakan keamanan informasi
+
+Kebijakan penggunaan email & internet
+
+Kebijakan BYOD (Bring Your Own Device)
+
+Kebijakan privasi data
+
+Kebijakan ini penting untuk mengurangi risiko dan meningkatkan kontrol internal.
+
+5. Keamanan dalam Strategi TI
+
+Keamanan menjadi bagian inti strategi TI organisasi.
+
+Pilar CIA Triad:
+
+Confidentiality – menjaga kerahasiaan data
+
+Integrity – memastikan data tetap akurat
+
+Availability – memastikan sistem selalu dapat diakses
+
+Ancaman Utama:
+
+Malware
+
+Ransomware
+
+Phishing
+
+Ancaman dari internal (insider threats)
+
+Strategi Pengamanan:
+
+Manajemen risiko keamanan informasi
+
+Kontrol akses & otentikasi
+
+Enkripsi data
+
+Backup rutin
+
+Pelatihan & awareness pengguna
+
+6. Tata Kelola TI (IT Governance)
+
+Tata kelola TI memastikan bahwa TI benar-benar mendukung strategi bisnis.
+
+Prinsip Utama:
+
+Alignment strategi TI–bisnis
+
+Delivering value (nilai tambah)
+
+Risk management
+
+Resource management
+
+Performance measurement
+
+Framework yang digunakan:
+
+COBIT – kontrol & audit sistem TI
+
+ITIL – manajemen layanan TI
+
+ISO 27001 – keamanan informasi
+
+ISO/IEC 38500 – tata kelola TI tingkat manajemen puncak
+
+7. Implementasi Tata Kelola TI
+
+Setiap framework memiliki fokus berbeda:
+
+COBIT: pengendalian dan audit TI
+
+ITIL: proses layanan TI
+
+ISO 27001: sistem keamanan informasi yang terstandar
+
+ISO/IEC 38500: panduan bagi direksi dalam penggunaan TI
+
+Implementasi ini membantu organisasi meningkatkan kualitas pengelolaan TI.
+
+8. Diskusi yang Diajukan
+
+Slide memberikan pertanyaan reflektif untuk analisis lebih mendalam:
+
+Bagaimana organisasi di Indonesia merespons isu etika TI?
+
+Apakah kebijakan TI saat ini cukup?
+
+Seberapa efektif tata kelola TI diterapkan di sektor publik dan korporasi?
+
+9. Ringkasan
+
+Materi merangkum bahwa:
+
+Etika TI berhubungan dengan moral dan tanggung jawab sosial.
+
+Kebijakan TI menjadi instrumen kontrol formal.
+
+Keamanan TI melindungi aset melalui cara teknis dan manajerial.
+
+Tata kelola TI memastikan TI memberikan nilai nyata bagi organisasi.
+
+10. Tugas / Refleksi
+
+Mahasiswa diminta membuat analisis 2–3 halaman mengenai:
+
+Isu etika
+
+Kebijakan TI
+
+Keamanan
+
+Tata kelola TI
+berdasarkan organisasi tempat bekerja atau studi kasus nyata di Indonesia.
+
+📌 Kesimpulan Review
+
+Materi ini menyajikan pemahaman menyeluruh tentang bagaimana TI tidak hanya mendukung operasional, tetapi juga memerlukan etika, kebijakan, keamanan, dan tata kelola yang matang agar memberikan nilai optimal bagi organisasi.
+
+Dengan pendekatan komprehensif, slide mengarahkan mahasiswa untuk memahami hubungan strategis TI dengan risiko, kontrol, dan etika digital yang semakin relevan di era modern.
