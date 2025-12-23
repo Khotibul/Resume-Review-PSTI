@@ -1,0 +1,503 @@
+Analisis Strategi Tata Kelola TI Pada Akademik Pesantren (Delivery And Support) Dan Me (Monitoring And Evaluation Menggunakan Framework Cobit 5
+( Muhammad Khotibul Umam, 23066020020@upnjatim.ac.id, Khotibul185@gmail.com)
+Ringkasan Eksekutif
+Pendidikan pesantren merupakan salah satu institusi yang menerapkan tata kelola TI pada Sistem Informasi Akademik (SIAK). SIAK merupakan bagian penting yang menghubungan Manajemen dengan seluruh stakeholder. Sehingga diperlukan pengukuran tingkat kematangan dengan menggunakan COBIT 5. Rumusan masalah bagaimana mengklasifikasikan masalah menjadi pernyataan sesuai COBIT 5 dan bagaimana menentukan serta mengukur tingkat kematangan tata kelola TI. Batasan penelitian hanya dilakukan pada SIAK Pendidikan pesantren Mamba’ul Khoiriyatil Islamiyah, khususnya domain Delivery and Support (DSS) serta Monitoring, Evaluation, and Assessment (MEA) dengan fokus pada permasalahan pengelolaan data akademik, absensi, arsip nilai, serta keterbatasan monitoring dan evaluasi TI. Pemanfaatan Teknologi Informasi (TI) dalam pengelolaan akademik pesantren menjadi faktor penting untuk meningkatkan efektivitas layanan pendidikan, transparansi administrasi, serta akuntabilitas pengelolaan data santri. Namun, penerapan TI di pesantren umumnya belum didukung oleh tata kelola yang terstruktur dan terstandarisasi. Penelitian ini bertujuan untuk menganalisis strategi tata kelola TI pada bidang akademik pesantren dengan menggunakan framework COBIT 5, khususnya pada domain Delivery and Support (DSS) serta Monitoring and Evaluation (MEA).
+Hasil analisis menunjukkan bahwa proses layanan TI dan mekanisme monitoring masih bersifat reaktif, belum terdokumentasi secara formal, serta minim pengukuran kinerja TI. Oleh karena itu, penelitian ini menghasilkan rekomendasi strategi tata kelola TI berupa arsitektur target, portofolio inisiatif, roadmap implementasi, serta kebijakan tata kelola dan keamanan TI yang selaras dengan visi pendidikan pesantren.
+
+
+ 
+1.	Latar Balakang
+Perkembangan Teknologi Informasi (TI) telah menjadi bagian penting dalam pengelolaan institusi pendidikan, termasuk pesantren. Pesantren sebagai lembaga pendidikan berbasis keagamaan tidak hanya berfokus pada pembinaan karakter dan keilmuan santri, tetapi juga dituntut untuk mengelola administrasi dan kegiatan akademik secara profesional, transparan, dan akuntabel.
+Dalam praktiknya, pengelolaan akademik pesantren, seperti pencatatan data santri, kurikulum, kehadiran, nilai, serta komunikasi dengan orang tua santri, semakin bergantung pada sistem informasi. Interaksi dengan orang tua santri menjadi aspek penting untuk membangun kepercayaan, koordinasi, dan keterbukaan informasi terkait perkembangan akademik maupun perilaku santri. Namun demikian, pemanfaatan TI di pesantren sering kali masih menghadapi berbagai permasalahan, seperti belum adanya standar tata kelola TI, ketergantungan pada individu tertentu, lemahnya pengelolaan risiko, serta belum terintegrasinya sistem akademik dengan layanan komunikasi orang tua.
+Kondisi tersebut menunjukkan bahwa penerapan TI belum sepenuhnya didukung oleh tata kelola yang terstruktur dan selaras dengan tujuan organisasi pesantren. Tanpa tata kelola TI yang baik, pemanfaatan TI berpotensi tidak memberikan nilai optimal, bahkan dapat menimbulkan risiko operasional dan keamanan informasi.
+Framework COBIT (Control Objectives for Information and Related Technology) merupakan kerangka kerja yang dirancang untuk membantu organisasi dalam menerapkan tata kelola dan manajemen TI secara efektif. COBIT menyediakan panduan berbasis praktik terbaik (best practices) untuk memastikan bahwa TI mampu memberikan nilai bagi organisasi, mengelola risiko, serta mendukung pencapaian tujuan strategis. Oleh karena itu, penelitian ini dilakukan untuk menganalisis strategi tata kelola teknologi informasi pada akademik pesantren dan interaksi dengan orang tua menggunakan framework COBIT, sehingga diharapkan dapat menjadi acuan dalam meningkatkan kualitas pengelolaan TI di lingkungan pesantren.
+Pesantren sebagai lembaga pendidikan Islam tradisional menghadapi tantangan besar dalam pengelolaan akademik seiring meningkatnya jumlah santri, kompleksitas layanan pendidikan, serta tuntutan akurasi dan kecepatan informasi. Penelitian ini bertujuan menganalisis strategi tata kelola Teknologi Informasi (TI) pada bidang akademik pesantren dengan menggunakan framework COBIT 5, khususnya domain Delivery and Support (DSS) serta Monitoring, Evaluation, and Assessment (MEA). Bahan analisis bersumber dari studi pengembangan Manajemen Sistem Informasi Pondok Pesantren, dengan fokus pada permasalahan pengelolaan data akademik, absensi, arsip nilai, serta keterbatasan monitoring dan evaluasi TI. Hasil analisis menunjukkan bahwa tata kelola TI akademik pesantren masih berada pada tingkat kematangan awal, sehingga diperlukan arah strategis TI, perbaikan layanan TI, penguatan monitoring, serta penyusunan roadmap implementasi yang selaras dengan nilai dan kultur pesantren.
+2.	Profil Organisasi & Strategi Bisnis
+Objek penelitian adalah sebuah pesantren Mamba’ul Khoiriyatil Islamiyah di kabupaten jember yang menyelenggarakan pendidikan formal dan nonformal dengan jumlah santri yang terus meningkat setiap tahun. Kegiatan akademik meliputi:
+•	Pendaftaran santri
+•	Pengelolaan data santri dan ustadz
+•	Penjadwalan pembelajaran
+•	Penilaian akademik
+•	Absensi akademik
+•	Pelaporan hasil belajar kepada wali santri
+Strategi bisnis pesantren berfokus pada:
+•	Peningkatan kualitas layanan pendidikan
+•	Transparansi pengelolaan akademik
+•	Kepercayaan wali santri
+•	Efisiensi operasional administrasi
+TI diposisikan sebagai enabler untuk mendukung strategi tersebut.
+3. Kondisi Saat Ini (As-Is) Teknologi Informasi
+3.1 Inventaris Aplikasi dan Layanan TI
+No	Aplikasi / Layanan TI	Fungsi Utama	Pengguna	Domain COBIT Terkait
+1	Sistem Informasi Akademik (Web)	Pengelolaan data santri, jadwal, nilai,absensi guru dan murid	Admin Akademik	DSS01, DSS02, DSS06
+2	Modul Pendaftaran Santri	Penerimaan santri baru	Admin	DSS02
+3	Modul Pembayaran	Pencatatan pembayaran akademik	Admin Keuangan	DSS06
+4	Website Informasi Pesantren	Publikasi informasi akademik	Umum	DSS01
+5	Dukungan TI Internal	Penanganan insiden dan permintaan	Staf Internal	DSS02, DSS03
+
+Interpretasi akademik:
+Layanan TI telah berjalan untuk mendukung aktivitas akademik, namun belum disertai standar layanan, SLA, dan dokumentasi formal sehingga pelaksanaan DSS masih bersifat operasional dasar.
+
+
+3.2 Inventaris Infrastruktur TI
+Tabel 2. Inventaris Infrastruktur Teknologi Informasi
+No	Infrastruktur	Deskripsi	Kondisi	Domain COBIT
+1	Server Hosting	Hosting website akademik	Aktif	DSS01
+2	Jaringan Internet	Akses internet operasional	Aktif	DSS01
+3	Perangkat PC	Administrasi akademik	Aktif	DSS01
+4	Perangkat Jaringan	Router dan modem	Aktif	DSS05
+5	Media Backup	Backup data berkala	Terbatas	DSS04
+
+3.3 Data dan Integrasi Sistem
+Aspek	Kondisi Saat Ini	Domain COBIT
+Penyimpanan Data	Terpusat pada sistem web	DSS06
+Integrasi Modul	Terbatas, tidak sepenuhnya terotomasi	DSS01
+Validasi Data	Belum terstandar	MEA01
+Backup Data	Dilakukan, tanpa SOP formal	DSS04
+Audit Data	Belum diterapkan	MEA02
+3.4 Keamanan Informasi
+Kontrol Keamanan	Implementasi	Domain
+Hak Akses Pengguna	Diterapkan	DSS05
+Autentikasi Sistem	Diterapkan	DSS05
+Kebijakan Keamanan Tertulis	Tidak tersedia	DSS05
+Log Keamanan	Tidak konsisten	MEA02
+Audit Keamanan	Belum dilakukan	MEA03
+
+3.5 Biaya dan Kontrak TI
+Komponen Biaya	Sumber	Pola Pengelolaan	Domain
+Hosting & Domain	Pihak Ketiga	Tahunan	DSS01
+Internet	ISP Lokal	Bulanan	DSS01
+Perangkat Keras	Internal	Insidental	DSS01
+Kontrak SLA TI	Tidak ada	–	DSS02
+Evaluasi Biaya TI	Tidak dilakukan	–	MEA01
+________________________________________
+3.6 Kapabilitas Sumber Daya Manusia TI
+Aspek	Kondisi Saat Ini	Dampak
+Unit TI Khusus	Tidak tersedia	Ketergantungan individu
+Kompetensi TI	Otodidak	Layanan tidak konsisten
+Pelatihan TI	Tidak terprogram	Kapabilitas stagnan
+Dokumentasi Proses	Minim	Risiko operasional
+Domain terkait: DSS01, DSS02, MEA01
+3.7 penyelarasan Kondisi As-Is dengan Domain DSS & MEA
+Subdomain	Kondisi Saat Ini
+DSS01 – Manage Operations	Operasional TI berjalan tanpa SOP formal
+DSS02 – Manage Service Requests & Incidents	Penanganan insiden reaktif
+DSS03 – Manage Problems	Masalah ditangani, dokumentasi terbatas
+DSS04 – Manage Continuity	Backup ada, BCP tidak terdokumentasi
+DSS05 – Manage Security Services	Keamanan dasar, tanpa audit
+DSS06 – Manage Business Process Controls	Kontrol proses berjalan, belum terstandar
+MEA01 – Performance Monitoring	Pengukuran kinerja TI tidak dilakukan
+MEA02 – Internal Control Monitoring	Kontrol internal belum dievaluasi
+MEA03 – Compliance Assessment	Audit kepatuhan TI belum tersedia
+
+
+
+4. Masalah, Kebutuhan, dan Peluang
+Analisis terhadap kondisi eksisting (As-Is) tata kelola Teknologi Informasi pada akademik pesantren menunjukkan bahwa pemanfaatan TI telah mendukung operasional dasar, namun belum sepenuhnya dikelola secara sistematis sesuai prinsip tata kelola TI yang baik. Oleh karena itu, diperlukan identifikasi masalah utama, kebutuhan organisasi, serta peluang peningkatan yang dapat dimanfaatkan sebagai dasar perumusan strategi tata kelola TI berbasis COBIT 5, khususnya pada domain Delivery and Support (DSS) dan Monitoring and Evaluation (MEA).
+4.1 Identifikasi Masalah
+Berdasarkan hasil inventarisasi dan pemetaan As-Is, permasalahan utama yang dihadapi dalam pengelolaan TI akademik pesantren adalah sebagai berikut:
+1.	Tidak adanya standar operasional layanan TI
+Proses operasional TI berjalan tanpa Standard Operating Procedure (SOP) yang terdokumentasi, sehingga pelaksanaan layanan sangat bergantung pada kebiasaan dan pengalaman individu tertentu. Kondisi ini menunjukkan lemahnya penerapan DSS01 (Manage Operations).
+2.	Penanganan insiden dan permintaan layanan bersifat reaktif
+Permintaan layanan dan insiden TI ditangani secara informal tanpa pencatatan, klasifikasi, maupun pelaporan yang terstruktur. Hal ini berdampak pada rendahnya konsistensi layanan dan tidak tersedianya data historis untuk evaluasi (DSS02 dan DSS03).
+3.	Minimnya pengelolaan keberlanjutan layanan TI
+Walaupun backup data telah dilakukan, pesantren belum memiliki dokumen Business Continuity Plan (BCP) maupun Disaster Recovery Plan (DRP) yang teruji. Kondisi ini berpotensi mengganggu keberlangsungan layanan akademik apabila terjadi gangguan serius (DSS04).
+4.	Keamanan informasi belum dikelola secara menyeluruh
+Penerapan keamanan masih terbatas pada pengaturan hak akses dasar dan autentikasi pengguna, tanpa kebijakan keamanan tertulis, audit keamanan, serta monitoring insiden keamanan secara berkala (DSS05).
+5.	Kontrol proses bisnis belum terstandarisasi
+Kontrol terhadap proses akademik berbasis TI telah berjalan, namun belum didukung dokumentasi dan mekanisme pengawasan yang terstruktur, sehingga risiko kesalahan data dan inkonsistensi proses masih cukup tinggi (DSS06).
+6.	Tidak adanya mekanisme monitoring dan evaluasi kinerja TI
+Kinerja layanan TI tidak diukur secara sistematis dan belum pernah dilakukan evaluasi atau audit internal TI. Hal ini menunjukkan belum optimalnya penerapan domain MEA01, MEA02, dan MEA03.
+4.2 Kebutuhan Tata Kelola TI
+Berdasarkan permasalahan yang teridentifikasi, kebutuhan utama dalam pengelolaan TI akademik pesantren meliputi:
+1.	Kebutuhan akan standar dan prosedur layanan TI
+Pesantren membutuhkan SOP layanan TI yang mencakup operasional harian, penanganan insiden, manajemen masalah, dan pengelolaan perubahan untuk meningkatkan konsistensi dan keandalan layanan (DSS01–DSS03).
+2.	Kebutuhan sistem monitoring dan evaluasi TI
+Diperlukan mekanisme pengukuran kinerja layanan TI, monitoring kontrol internal, serta evaluasi kepatuhan terhadap kebijakan dan prosedur TI sebagai dasar peningkatan berkelanjutan (MEA01–MEA03).
+3.	Kebutuhan kebijakan keamanan dan keberlanjutan TI
+Pesantren memerlukan kebijakan keamanan informasi, manajemen risiko TI, serta rencana keberlanjutan layanan untuk melindungi data akademik dan memastikan kontinuitas operasional (DSS04 dan DSS05).
+4.	Kebutuhan peningkatan kapabilitas SDM TI
+Pengelolaan TI membutuhkan kejelasan peran dan tanggung jawab, peningkatan kompetensi SDM, serta pembentukan fungsi pengelola TI agar layanan tidak bergantung pada individu tertentu.
+5.	Kebutuhan keselarasan TI dengan tujuan akademik
+Tata kelola TI harus diarahkan untuk mendukung tujuan utama pesantren, yaitu peningkatan kualitas layanan akademik, transparansi informasi, dan efisiensi administrasi.
+
+4.3 Peluang Peningkatan Tata Kelola TI
+Selain permasalahan dan kebutuhan, terdapat sejumlah peluang yang dapat dimanfaatkan pesantren dalam meningkatkan tata kelola TI, antara lain:
+1.	Pemanfaatan TI sebagai pendukung layanan akademik terpadu
+Dengan tata kelola yang baik, sistem informasi akademik dapat dikembangkan menjadi layanan terpadu yang meningkatkan efektivitas proses pembelajaran dan administrasi.
+2.	Peningkatan transparansi dan akuntabilitas akademik
+Penerapan monitoring dan evaluasi TI memungkinkan penyediaan informasi akademik yang lebih akurat dan dapat dipertanggungjawabkan kepada pimpinan dan wali santri.
+3.	Efisiensi operasional dan pengurangan risiko TI
+Standarisasi proses dan penguatan kontrol TI dapat mengurangi kesalahan operasional, risiko kehilangan data, serta gangguan layanan.
+4.	Peningkatan tingkat kapabilitas proses TI
+Dengan mengacu pada COBIT 5, pesantren memiliki peluang untuk meningkatkan kapabilitas proses DSS dan MEA dari level eksisting menuju level 2 (Managed Process) secara bertahap dan terukur.
+5.	Penguatan kepercayaan pemangku kepentingan
+Tata kelola TI yang baik akan meningkatkan kepercayaan pimpinan, tenaga pendidik, dan wali santri terhadap kualitas layanan akademik pesantren.
+
+5. Prinsip dan Arah Strategis Teknologi Informasi
+Perumusan prinsip dan arah strategis Teknologi Informasi (TI) pada akademik pesantren disusun berdasarkan hasil analisis kondisi eksisting (As-Is), identifikasi masalah, kebutuhan, dan peluang, serta mengacu pada framework COBIT 5. Prinsip dan arah strategis ini bertujuan untuk memastikan bahwa pemanfaatan TI tidak hanya mendukung operasional akademik, tetapi juga dikelola secara efektif, aman, berkelanjutan, dan selaras dengan tujuan institusi.
+
+5.1 Prinsip Tata Kelola Teknologi Informasi
+Prinsip tata kelola TI pada akademik pesantren ditetapkan dengan mengadopsi lima prinsip dasar COBIT 5 sebagai landasan strategis, yaitu:
+1.	Pemenuhan Kebutuhan Pemangku Kepentingan (Meeting Stakeholder Needs)
+Pemanfaatan TI diarahkan untuk memenuhi kebutuhan pimpinan pesantren, tenaga pendidik, staf administrasi, serta wali santri melalui layanan akademik yang andal, transparan, dan akuntabel.
+2.	Cakupan Tata Kelola Menyeluruh (Covering the Enterprise End-to-End)
+Tata kelola TI mencakup seluruh proses akademik dan administrasi pesantren, mulai dari perencanaan, operasional, hingga monitoring dan evaluasi layanan TI.
+3.	Penerapan Kerangka Kerja Terintegrasi (Applying a Single Integrated Framework)
+COBIT 5 digunakan sebagai kerangka utama dalam pengelolaan TI, dengan tetap mempertimbangkan praktik terbaik lain yang relevan dalam pengelolaan layanan, keamanan, dan pengendalian internal.
+4.	Pendekatan Holistik dalam Tata Kelola TI (Enabling a Holistic Approach)
+Pengelolaan TI memperhatikan keterpaduan antara proses, struktur organisasi, sumber daya manusia, infrastruktur, data, dan kebijakan.
+5.	Pemisahan Tata Kelola dan Manajemen (Separating Governance from Management)
+Penetapan kebijakan dan arah strategis TI berada pada tingkat pimpinan, sementara implementasi operasional dan pengelolaan harian dilakukan oleh fungsi pengelola TI.
+
+5.2 Arah Strategis Teknologi Informasi Akademik Pesantren
+Berdasarkan prinsip tata kelola TI tersebut, arah strategis TI akademik pesantren dirumuskan sebagai berikut:
+1. Penguatan Layanan Operasional TI Akademik
+TI diarahkan untuk menjamin keberlangsungan layanan akademik yang stabil dan konsisten melalui penerapan standar operasional, pengelolaan layanan, serta penanganan insiden yang terstruktur. Arah strategis ini mendukung peningkatan kualitas layanan TI sesuai dengan DSS01 (Manage Operations) dan DSS02 (Manage Service Requests and Incidents).
+
+2. Peningkatan Keandalan dan Keberlanjutan Layanan TI
+Pesantren menetapkan arah strategis untuk memperkuat aspek keberlanjutan layanan TI melalui pengelolaan backup data, perencanaan keberlangsungan bisnis, serta mitigasi risiko gangguan layanan akademik. Arah ini selaras dengan DSS04 (Manage Continuity).
+
+3. Penguatan Keamanan Informasi Akademik
+Keamanan informasi menjadi prioritas strategis untuk melindungi data santri dan aktivitas akademik. Arah strategis ini mencakup pengembangan kebijakan keamanan informasi, pengendalian akses, serta pemantauan insiden keamanan secara berkelanjutan, sejalan dengan DSS05 (Manage Security Services).
+
+4. Standardisasi dan Pengendalian Proses Akademik Berbasis TI
+TI diarahkan untuk mendukung proses akademik yang terstandarisasi, terdokumentasi, dan dapat ditelusuri, sehingga meningkatkan akurasi data dan akuntabilitas proses bisnis pesantren. Arah strategis ini mendukung DSS06 (Manage Business Process Controls).
+
+5. Peningkatan Monitoring dan Evaluasi Kinerja TI
+Pesantren menetapkan arah strategis untuk menerapkan mekanisme monitoring, evaluasi, dan pelaporan kinerja TI secara berkala guna memastikan efektivitas layanan dan kesesuaian dengan kebijakan yang ditetapkan. Arah ini selaras dengan MEA01 (Monitor, Evaluate and Assess Performance) dan MEA02 (Monitor, Evaluate and Assess Internal Control).
+
+6. Peningkatan Kapabilitas dan Tata Kelola SDM TI
+Pengembangan kapasitas SDM TI diarahkan melalui kejelasan peran dan tanggung jawab, peningkatan kompetensi, serta pembentukan fungsi pengelola TI yang terstruktur. Arah strategis ini mendukung keberhasilan implementasi seluruh domain DSS dan MEA.
+
+5.3 Pemetaan Prinsip dan Arah Strategis TI terhadap Domain COBIT 5
+Tabel 8. Pemetaan Prinsip dan Arah Strategis TI
+Prinsip / Arah Strategis	Domain COBIT 5
+Layanan TI andal dan terstandar	DSS01, DSS02
+Keberlanjutan layanan akademik	DSS04
+Keamanan informasi akademik	DSS05
+Kontrol proses akademik	DSS06
+Monitoring dan evaluasi TI	MEA01, MEA02, MEA03
+Penguatan SDM dan tata kelola TI	DSS01, MEA01
+
+6.	Arsitektur Target (High Level) Tata Kelola Teknologi Informasi
+Arsitektur target Teknologi Informasi dirancang sebagai gambaran kondisi ideal tata kelola TI akademik pesantren yang ingin dicapai berdasarkan hasil analisis kondisi saat ini (As-Is), permasalahan, kebutuhan, serta arah strategis TI. Arsitektur ini disusun pada tingkat tinggi (high level) untuk memastikan keselarasan antara strategi TI dan tujuan akademik pesantren, dengan mengacu pada framework COBIT 5, khususnya domain Delivery and Support (DSS) dan Monitoring and Evaluation (MEA).
+6.1 Tujuan Arsitektur Target
+Arsitektur target tata kelola TI bertujuan untuk:
+1.	Menyediakan layanan TI akademik yang andal, terstandar, dan berkelanjutan.
+2.	Memastikan keamanan dan integritas data akademik.
+3.	Mendukung monitoring dan evaluasi kinerja TI secara sistematis.
+4.	Meningkatkan kapabilitas proses DSS dan MEA menuju level 2 (Managed Process).
+
+6.2 Komponen Arsitektur Target
+Arsitektur target disusun berdasarkan pendekatan holistik yang mencakup lima komponen utama, yaitu proses, aplikasi, data, teknologi, dan sumber daya manusia.
+
+6.2.1 Arsitektur Proses (Process Architecture)
+Pada kondisi target, seluruh proses TI akademik dikelola melalui prosedur yang terstandarisasi dan terdokumentasi. Proses utama meliputi:
+•	Operasional layanan TI harian
+•	Manajemen permintaan layanan dan insiden
+•	Manajemen masalah dan keberlanjutan layanan
+•	Pengelolaan keamanan layanan
+•	Monitoring dan evaluasi kinerja TI
+Proses-proses tersebut dipetakan langsung ke domain DSS01–DSS06 dan MEA01–MEA03.
+________________________________________
+6.2.2 Arsitektur Aplikasi (Application Architecture)
+Tabel 9. Arsitektur Aplikasi Target
+Lapisan Aplikasi	Aplikasi Target	Fungsi Utama	Domain COBIT
+Core System	Sistem Informasi Akademik Terintegrasi	Pengelolaan data santri, nilai, jadwal	DSS01, DSS06
+Support System	Modul Pendaftaran & Pembayaran	Administrasi akademik	DSS02
+Service System	Helpdesk / Ticketing TI	Permintaan layanan & insiden	DSS02, DSS03
+Monitoring System	Dashboard Monitoring TI	Pemantauan kinerja layanan	MEA01
+Security System	Sistem Kontrol Akses & Log	Keamanan dan audit	DSS05, MEA02
+
+6.2.3 Arsitektur Data (Data Architecture)
+Pada kondisi target, data akademik dikelola secara terpusat dan terkontrol, dengan karakteristik:
+•	Basis data terintegrasi untuk seluruh modul akademik
+•	Standar klasifikasi dan validasi data
+•	Mekanisme backup dan pemulihan data terjadwal
+•	Audit dan pelaporan kualitas data secara berkala
+Arsitektur data ini mendukung DSS04 (Manage Continuity) dan MEA01 (Performance Monitoring).
+
+6.2.4 Arsitektur Teknologi (Technology Architecture)
+Tabel 10. Arsitektur Teknologi Target
+Komponen Teknologi	Target Kondisi	Domain
+Server	Dedicated / Cloud Managed Server	DSS01
+Jaringan	Internet stabil & terproteksi	DSS01, DSS05
+Backup System	Backup otomatis & offsite	DSS04
+Security Tools	Firewall, antivirus, access control	DSS05
+Monitoring Tools	Tools pemantauan sistem	MEA01
+
+6.2.5 Arsitektur SDM dan Organisasi TI
+Pada arsitektur target, tata kelola SDM TI diarahkan pada:
+•	Penetapan fungsi pengelola TI
+•	Kejelasan peran dan tanggung jawab
+•	Pemisahan peran pengambil kebijakan dan pelaksana
+•	Program peningkatan kompetensi TI
+Pendekatan ini mendukung penerapan prinsip Separating Governance from Management dalam COBIT 5
+
+6.3 Penyelarasan Arsitektur Target dengan Domain DSS & MEA
+Tabel 11. Pemetaan Arsitektur Target terhadap Domain COBIT 5
+Komponen Arsitektur	Domain COBIT 5
+Operasional layanan TI	DSS01
+Manajemen insiden & layanan	DSS02
+Manajemen masalah	DSS03
+Keberlanjutan layanan	DSS04
+Keamanan informasi	DSS05
+Kontrol proses akademik	DSS06
+Monitoring kinerja TI	MEA01
+Evaluasi kontrol internal	MEA02
+Audit & kepatuhan TI	MEA03
+
+7.	Portofolio Inisiatif dan Prioritas
+Portofolio inisiatif TI disusun sebagai kumpulan program dan kegiatan strategis yang dirancang untuk menjembatani kesenjangan antara kondisi saat ini (As-Is) dan kondisi target (To-Be) tata kelola TI akademik pesantren. Portofolio ini mengacu pada hasil analisis masalah, kebutuhan, dan peluang, serta mendukung pencapaian kapabilitas proses COBIT 5 domain Delivery and Support (DSS) dan Monitoring and Evaluation (MEA). Penentuan prioritas inisiatif dilakukan dengan mempertimbangkan tingkat urgensi, dampak terhadap layanan akademik, risiko TI, serta ketersediaan sumber daya.
+
+7.1 Prinsip Penyusunan Portofolio Inisiatif
+Penyusunan portofolio inisiatif didasarkan pada prinsip-prinsip berikut:
+1.	Mendukung tujuan strategis akademik pesantren.
+2.	Mengurangi risiko operasional dan keamanan TI.
+3.	Meningkatkan kapabilitas proses DSS dan MEA.
+4.	Realistis terhadap kondisi sumber daya pesantren.
+5.	Dapat diimplementasikan secara bertahap.
+7.2 Portofolio Inisiatif Tata Kelola TI
+Tabel 12. Portofolio Inisiatif Tata Kelola TI Akademik
+No	Inisiatif Strategis	Deskripsi Singkat	Domain COBIT	Dampak Utama
+1	Penyusunan SOP Layanan TI	Penyusunan dan penerapan SOP operasional, insiden, dan masalah TI	DSS01, DSS02, DSS03	Konsistensi layanan
+2	Implementasi Helpdesk / Ticketing	Sistem pencatatan permintaan dan insiden TI	DSS02, DSS03	Respons layanan terukur
+3	Pengembangan Monitoring Kinerja TI	Dashboard pemantauan kinerja layanan TI	MEA01	Evaluasi kinerja
+4	Penyusunan Kebijakan Keamanan Informasi	Kebijakan hak akses, perlindungan data, dan keamanan sistem	DSS05	Perlindungan data
+5	Penyusunan BCP & DRP	Perencanaan keberlanjutan dan pemulihan layanan TI	DSS04	Keberlanjutan layanan
+6	Standarisasi Kontrol Proses Akademik	Dokumentasi dan pengendalian proses berbasis TI	DSS06	Akurasi & akuntabilitas
+7	Pembentukan Fungsi Pengelola TI	Penetapan peran dan struktur pengelola TI	DSS01, MEA01	Tata kelola berkelanjutan
+8	Pelatihan dan Peningkatan SDM TI	Pengembangan kompetensi pengelola TI	DSS01	Kapabilitas SDM
+9	Audit dan Evaluasi TI Berkala	Audit internal dan evaluasi kepatuhan TI	MEA02, MEA03	Kepatuhan & kontrol
+________________________________________
+7.3 Penentuan Prioritas Inisiatif
+Penentuan prioritas inisiatif dikelompokkan ke dalam tiga kategori, yaitu prioritas tinggi, menengah, dan rendah, berdasarkan tingkat urgensi dan dampaknya terhadap layanan akademik.
+Tabel 13. Prioritas Inisiatif Tata Kelola TI
+Prioritas	Inisiatif	Alasan Penetapan
+Tinggi	SOP Layanan TI	Fondasi pengelolaan DSS
+Tinggi	Helpdesk / Ticketing TI	Mendukung DSS02 & DSS03
+Tinggi	Monitoring Kinerja TI	Dasar penerapan MEA
+Tinggi	Kebijakan Keamanan Informasi	Perlindungan data akademik
+Menengah	BCP & DRP	Mitigasi risiko jangka menengah
+Menengah	Standarisasi Kontrol Proses	Peningkatan akuntabilitas
+Menengah	Pembentukan Fungsi TI	Keberlanjutan tata kelola
+Rendah	Pelatihan SDM TI	Dilakukan bertahap
+Rendah	Audit TI Berkala	Dilakukan setelah sistem stabil
+________________________________________
+7.4 Keterkaitan Portofolio Inisiatif dengan Target Kapabilitas
+Portofolio inisiatif ini secara langsung diarahkan untuk meningkatkan kapabilitas proses dari kondisi eksisting menuju level 2 (Managed Process) sesuai COBIT 5, dengan karakteristik:
+•	Proses terdokumentasi
+•	Tanggung jawab jelas
+•	Kinerja dimonitor
+•	Evaluasi dilakukan secara berkala
+
+Tabel 14. Pemetaan Inisiatif terhadap Target Kapabilitas
+Domain	Inisiatif Utama	Target Kapabilitas
+DSS01	SOP & Struktur TI	Level 2
+DSS02	Helpdesk TI	Level 2
+DSS03	Dokumentasi Masalah	Level 2
+DSS04	BCP & DRP	Level 2
+DSS05	Kebijakan Keamanan	Level 2
+DSS06	Kontrol Proses	Level 2
+MEA01	Monitoring Kinerja	Level 2
+MEA02	Evaluasi Kontrol	Level 2
+MEA03	Audit TI	Level 2
+
+8.	Roadmap Implementasi Tata Kelola Teknologi Informasi
+Roadmap implementasi disusun sebagai panduan bertahap untuk merealisasikan portofolio inisiatif tata kelola Teknologi Informasi (TI) akademik pesantren. Roadmap ini bertujuan untuk memastikan bahwa proses peningkatan tata kelola TI dilaksanakan secara sistematis, terukur, dan berkelanjutan, dengan mengacu pada framework COBIT 5, khususnya domain Delivery and Support (DSS) dan Monitoring and Evaluation (MEA).
+
+9.1 Pendekatan Implementasi
+Pendekatan implementasi tata kelola TI dilakukan secara bertahap dengan mempertimbangkan:
+1.	Tingkat urgensi dan dampak inisiatif terhadap layanan akademik.
+2.	Ketersediaan sumber daya manusia dan anggaran.
+3.	Tingkat kematangan proses TI saat ini.
+4.	Kesiapan organisasi terhadap perubahan.
+Pendekatan ini memungkinkan pesantren untuk meningkatkan kapabilitas proses TI dari kondisi eksisting menuju kondisi target secara realistis.
+9.2 Tahapan Roadmap Implementasi
+Roadmap implementasi dibagi ke dalam tiga tahap utama, yaitu jangka pendek, jangka menengah, dan jangka panjang.
+________________________________________
+9.2.1 Tahap Jangka Pendek (0–6 Bulan)
+Tahap ini berfokus pada penguatan fondasi tata kelola TI dan perbaikan proses operasional dasar.
+Tabel 15. Roadmap Implementasi Jangka Pendek
+No	Kegiatan	Domain COBIT	Output Utama
+1	Penyusunan SOP Layanan TI	DSS01	Dokumen SOP operasional
+2	SOP Penanganan Insiden & Permintaan	DSS02	Prosedur layanan TI
+3	Implementasi Helpdesk / Ticketing	DSS02, DSS03	Sistem pencatatan insiden
+4	Penyusunan Kebijakan Keamanan Informasi	DSS05	Dokumen kebijakan keamanan
+5	Penetapan Peran Pengelola TI	DSS01	Struktur dan tanggung jawab
+Target kapabilitas:
+Proses DSS01–DSS03 mulai terdokumentasi dan dikelola secara terencana.
+
+9.2.2 Tahap Jangka Menengah (6–12 Bulan)
+Tahap ini difokuskan pada peningkatan kontrol, keberlanjutan layanan, dan monitoring kinerja TI.
+Tabel 16. Roadmap Implementasi Jangka Menengah
+No	Kegiatan	Domain COBIT	Output Utama
+1	Penyusunan BCP dan DRP	DSS04	Dokumen keberlanjutan TI
+2	Implementasi Backup Terjadwal	DSS04	Mekanisme backup otomatis
+3	Pengembangan Monitoring Kinerja TI	MEA01	Dashboard kinerja TI
+4	Standarisasi Kontrol Proses Akademik	DSS06	Dokumen kontrol proses
+5	Pelatihan Dasar Pengelola TI	DSS01	Peningkatan kompetensi SDM
+Target kapabilitas:
+Proses DSS04–DSS06 dan MEA01 mencapai kondisi managed dan terpantau.
+9.2.3 Tahap Jangka Panjang (12–24 Bulan)
+Tahap ini diarahkan pada penguatan evaluasi, audit, dan peningkatan berkelanjutan tata kelola TI.
+Tabel 17. Roadmap Implementasi Jangka Panjang
+No	Kegiatan	Domain COBIT	Output Utama
+1	Audit Internal Tata Kelola TI	MEA02	Laporan evaluasi kontrol
+2	Evaluasi Kepatuhan TI	MEA03	Laporan kepatuhan
+3	Penyempurnaan SOP & Kebijakan TI	DSS01–DSS06	SOP terbarui
+4	Evaluasi Kinerja TI Berkala	MEA01	Rekomendasi peningkatan
+5	Pengembangan Layanan TI Lanjutan	DSS01	Inovasi layanan TI
+Target kapabilitas:
+Seluruh proses DSS dan MEA mencapai Level 2 (Managed Process) secara konsisten.
+9.3 Keterkaitan Roadmap dengan Target Kapabilitas COBIT 5
+Tabel 18. Pemetaan Tahapan Roadmap terhadap Target Kapabilitas
+Tahap	Domain Utama	Target Kapabilitas
+Jangka Pendek	DSS01–DSS03	Level 2 (awal)
+Jangka Menengah	DSS04–DSS06, MEA01	Level 2
+Jangka Panjang	MEA02, MEA03	Level 2 berkelanjutan
+________________________________________
+9.4 Indikator Keberhasilan Implementasi
+Keberhasilan implementasi roadmap diukur melalui indikator berikut:
+1.	Tersedianya SOP dan kebijakan TI yang terdokumentasi.
+2.	Tersedianya sistem pencatatan dan monitoring layanan TI.
+3.	Meningkatnya keandalan dan keamanan layanan akademik.
+4.	Dilaksanakannya evaluasi dan audit TI secara berkala.
+5.	Meningkatnya kapabilitas proses DSS dan MEA.
+
+9.	Tata Kelola, Kebijakan, dan Keamanan Teknologi Informasi
+Tata kelola, kebijakan, dan keamanan Teknologi Informasi (TI) merupakan komponen penting dalam memastikan bahwa pemanfaatan TI akademik pesantren berjalan secara terarah, terkendali, dan berkelanjutan. Bab ini membahas rancangan tata kelola TI, kebijakan pendukung, serta mekanisme pengamanan informasi yang dirancang berdasarkan framework COBIT 5, khususnya pada domain Delivery and Support (DSS) dan Monitoring and Evaluation (MEA).
+10.1 Struktur Tata Kelola Teknologi Informasi
+Struktur tata kelola TI dirancang untuk memastikan pemisahan peran antara pengambil keputusan strategis dan pelaksana operasional TI, sesuai prinsip Separating Governance from Management dalam COBIT 5.
+Tabel 19. Struktur Tata Kelola TI Akademik Pesantren
+Peran	Tanggung Jawab Utama	Domain COBIT
+Pimpinan Pesantren	Penetapan kebijakan dan arah strategis TI	MEA01
+Koordinator TI	Pengelolaan layanan dan operasional TI	DSS01
+Staf Administrasi	Penggunaan dan pelaporan layanan TI	DSS02
+Pengguna Sistem	Pemanfaatan sistem akademik	DSS06
+Auditor Internal	Evaluasi dan audit tata kelola TI	MEA02, MEA03
+Struktur ini memastikan bahwa setiap fungsi memiliki tanggung jawab yang jelas dalam pengelolaan dan pengawasan TI.
+________________________________________
+10.2 Kebijakan Teknologi Informasi
+Kebijakan TI berfungsi sebagai pedoman formal dalam pengelolaan dan pemanfaatan TI akademik. Kebijakan ini dirancang untuk mendukung konsistensi layanan dan pengendalian risiko TI.
+10.2.1 Kebijakan Layanan TI
+Kebijakan layanan TI mengatur:
+•	Standar operasional layanan TI
+•	Penanganan permintaan dan insiden
+•	Waktu respons dan eskalasi layanan
+Kebijakan ini mendukung penerapan DSS01 dan DSS02.
+________________________________________
+10.2.2 Kebijakan Keberlanjutan Layanan
+Kebijakan ini mengatur:
+•	Prosedur backup dan pemulihan data
+•	Penanganan gangguan layanan TI
+•	Perencanaan keberlangsungan layanan
+Kebijakan ini selaras dengan DSS04 (Manage Continuity).
+10.2.3 Kebijakan Keamanan Informasi
+Kebijakan keamanan informasi mencakup:
+•	Pengaturan hak akses pengguna
+•	Perlindungan data akademik
+•	Pengelolaan insiden keamanan
+•	Pemantauan aktivitas sistem
+Kebijakan ini mendukung DSS05 (Manage Security Services).
+10.3 Pengelolaan Keamanan Teknologi Informasi
+Pengelolaan keamanan TI bertujuan untuk melindungi aset informasi akademik dari ancaman internal maupun eksternal.
+Tabel 20. Kontrol Keamanan Teknologi Informasi
+Aspek Keamanan	Mekanisme Pengamanan	Domain COBIT
+Akses Sistem	Hak akses berbasis peran	DSS05
+Autentikasi	Username dan password	DSS05
+Perlindungan Data	Backup dan enkripsi dasar	DSS04, DSS05
+Log Aktivitas	Pencatatan aktivitas sistem	MEA02
+Audit Keamanan	Evaluasi keamanan berkala	MEA03
+________________________________________
+10.4 Monitoring dan Evaluasi Keamanan TI
+Monitoring dan evaluasi keamanan TI dilakukan untuk memastikan efektivitas kontrol dan kepatuhan terhadap kebijakan yang telah ditetapkan.
+Kegiatan monitoring dan evaluasi meliputi:
+•	Pemantauan insiden keamanan
+•	Evaluasi kepatuhan pengguna terhadap kebijakan TI
+•	Audit internal keamanan TI
+•	Pelaporan hasil evaluasi kepada pimpinan
+Aktivitas ini selaras dengan domain MEA01, MEA02, dan MEA03.
+10.5 Keterkaitan Tata Kelola dan Keamanan TI dengan Roadmap Implementasi
+Tata kelola, kebijakan, dan keamanan TI merupakan landasan utama dalam pelaksanaan roadmap implementasi tata kelola TI. Keberhasilan penerapan roadmap sangat bergantung pada konsistensi kebijakan, kejelasan struktur tata kelola, serta efektivitas pengamanan informasi.
+Tabel 21. Keterkaitan Bab 10 dengan Roadmap Implementasi
+Komponen	Tahap Roadmap	Dampak
+Struktur Tata Kelola TI	Jangka Pendek	Kejelasan peran
+Kebijakan TI	Jangka Pendek–Menengah	Konsistensi layanan
+Keamanan Informasi	Jangka Menengah	Perlindungan data
+Audit dan Evaluasi	Jangka Panjang	Kepatuhan dan kontrol
+
+10.	Rencana Anggaran dan Sumber Daya
+Rencana anggaran dan sumber daya disusun untuk memastikan bahwa implementasi tata kelola Teknologi Informasi (TI) akademik pesantren dapat dilaksanakan secara realistis, terukur, dan berkelanjutan. Perencanaan ini mengacu pada roadmap implementasi dan portofolio inisiatif yang telah dirumuskan, serta diselaraskan dengan framework COBIT 5, khususnya domain Delivery and Support (DSS) dan Monitoring and Evaluation (MEA).
+11.1 Prinsip Perencanaan Anggaran TI
+Perencanaan anggaran TI disusun berdasarkan prinsip-prinsip berikut:
+1.	Efisiensi dan efektivitas biaya, dengan memprioritaskan inisiatif berdampak tinggi.
+2.	Kesesuaian dengan kebutuhan akademik, bukan sekadar pengadaan teknologi.
+3.	Bertahap dan berkelanjutan, sesuai kemampuan finansial pesantren.
+4.	Akuntabilitas dan transparansi, untuk mendukung pengawasan dan evaluasi anggaran.
+5.	Berorientasi risiko, dengan mengalokasikan anggaran pada aspek kritikal layanan TI.
+11.2 Rencana Anggaran Implementasi Tata Kelola TI
+Rencana anggaran disusun berdasarkan tahapan roadmap implementasi.
+11.2.1 Anggaran Jangka Pendek (0–6 Bulan)
+Tabel 22. Rencana Anggaran Jangka Pendek
+No	Kegiatan	Komponen Biaya	Estimasi Biaya	Domain COBIT
+1	Penyusunan SOP TI	Dokumentasi & konsultasi	Rendah	DSS01
+2	Implementasi Helpdesk TI	Aplikasi / tools	Rendah–Menengah	DSS02
+3	Kebijakan Keamanan Informasi	Penyusunan dokumen	Rendah	DSS05
+4	Penetapan Struktur TI	Administrasi internal	Rendah	DSS01
+________________________________________
+11.2.2 Anggaran Jangka Menengah (6–12 Bulan)
+Tabel 23. Rencana Anggaran Jangka Menengah
+No	Kegiatan	Komponen Biaya	Estimasi Biaya	Domain COBIT
+1	Backup Terjadwal	Media penyimpanan	Menengah	DSS04
+2	Monitoring Kinerja TI	Dashboard / tools	Menengah	MEA01
+3	Pelatihan SDM TI	Pelatihan dan sertifikasi	Menengah	DSS01
+4	Standarisasi Kontrol Proses	Dokumentasi proses	Rendah–Menengah	DSS06
+
+11.2.3 Anggaran Jangka Panjang (12–24 Bulan)
+Tabel 24. Rencana Anggaran Jangka Panjang
+No	Kegiatan	Komponen Biaya	Estimasi Biaya	Domain COBIT
+1	Audit Internal TI	Audit dan evaluasi	Menengah	MEA02
+2	Evaluasi Kepatuhan TI	Review kebijakan	Rendah–Menengah	MEA03
+3	Pengembangan Layanan TI	Pengembangan sistem	Menengah–Tinggi	DSS01
+________________________________________
+11.3 Perencanaan Sumber Daya Manusia TI
+Perencanaan sumber daya manusia TI diarahkan untuk memastikan ketersediaan personel yang kompeten dalam mengelola layanan TI akademik.
+Tabel 25. Perencanaan Sumber Daya Manusia TI
+Peran	Tanggung Jawab	Kebutuhan Kompetensi	Domain
+Koordinator TI	Pengelolaan layanan TI	Manajemen layanan TI	DSS01
+Admin Sistem	Operasional sistem akademik	Administrasi sistem	DSS01
+Staf Pendukung	Dukungan pengguna	Troubleshooting dasar	DSS02
+Auditor Internal	Evaluasi tata kelola TI	Audit TI	MEA02
+________________________________________
+11.4 Keterkaitan Anggaran dan Sumber Daya dengan Roadmap Implementasi
+Anggaran dan sumber daya dirancang untuk mendukung pelaksanaan roadmap implementasi secara konsisten dan berkelanjutan.
+Tabel 26. Keterkaitan Anggaran dengan Roadmap
+Tahap Roadmap	Fokus Anggaran	Dampak
+Jangka Pendek	SOP & layanan dasar	Fondasi tata Kelola
+Jangka Menengah	Monitoring & keamanan	Stabilitas layanan
+Jangka Panjang	Audit & pengembangan	Peningkatan berkelanjutan
+________________________________________
+11.5 Evaluasi dan Pengendalian Anggaran TI
+Evaluasi anggaran TI dilakukan secara berkala untuk memastikan:
+•	Kesesuaian realisasi anggaran dengan perencanaan
+•	Efektivitas penggunaan sumber daya
+•	Dukungan anggaran terhadap peningkatan kapabilitas proses DSS dan MEA
+Evaluasi ini selaras dengan MEA01 (Performance Monitoring) dan MEA02 (Internal Control Monitoring).
+
+Kesimpulan
+
+Daftar Pustaka
+Beberapa ketentuan untuk daftar pustaka :
+1.	Buku Teks: nama penulis, judul buku, kota penerbit, tahun.
+2.	Jurnal/prosiding: organisasi penerbit jurnal/prosiding, volume, halaman yang dicuplik, ISSN/E-ISSN, DOI, kota penerbit, penerbit, tahun.
+3.	Penulisan nama penulis ditulis tanpa gelar, ditulis berurutan nama pertama, nama tengah dan nama akhir.
+4.	Hindari url sebagai daftar pustaka, karena daftar pustaka bukan daftar tempat pustaka itu berada. Apapun bentuk daftar pustaka tetap harus memenui : penulis, judul, informasi penerbitannya (buku, jurnal, prosiding, dll)
+[1]	C.J. Date, “An Introduction To Database Systems”, 6th ed., Addison Willey Publishing Wesley Company, Inc., Reading Massachusetts, 2000. 
+[2]	Didik Wijaya & Ander Parulian Hutasoit, ”Tip dan Trik Macromedia Flash MX dengan Action Script”, PT. Elex Media Komputindo, Jakarta, 2004.
+[3]	Anonim, “Sistem Pemerintahan di Indonesia”, Cetakan pertama, PT. Gunung Agung, Jakarta 1983.
+[4]	I. Mulyadi, C.M. Karyati, “Analisis Sentimen Terhadap Universitas Gunadarma Berdasarkan Opini Pengguna Twitter Menggunakan Metode Naive Bayes Classifier”, Jurnal Ilmiah Komputasi, Vol. 19, No. 4, pp. 507-522,  Desember 2020.
+[5]	Penulis, “ Judul”, diakses daring pada http://www.radium.nesc.mil/library/ rainbow/NCSC-TG-001-2.html, 1 Juni 1988 (Usahakan tidak mensitasi dari sumber pustaka seperti ini 
+
+
